@@ -1,0 +1,22 @@
+.auth__from {
+  background: var(--primary-color);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.auth__btn {
+  background: #fff !important;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.auth__from p {
+  margin-top: 30px;
+}
+.auth__from p a {
+  color: rgba(255, 255, 255, 0.735);
+}
+
+.auth__from input[type="file"] {
+  color: #fff;
+  cursor: pointer;
+}
