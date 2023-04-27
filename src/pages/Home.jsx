@@ -26,7 +26,6 @@ const Home = () => {
   const [lipsProduct, setLipsProduct] = useState([]);
   const [skinCareProduct, setSkinCareProduct] = useState([]);
   const [popularProducts, setPopularProducts] = useState([]);
-  const year = new Date().getFullYear();
 
   useEffect(() => {
     const filteredTrendingProducts = products.filter(
