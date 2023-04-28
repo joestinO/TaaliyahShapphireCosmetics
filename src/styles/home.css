@@ -12,10 +12,14 @@
   font-weight: 600;
   margin: 20px 0px;
 }
+.hero__img {
+  position: relative;
+  height: 100%;
+}
 .hero__img img {
   width: 350px;
   position: absolute;
-  bottom: 32.2%;
+  bottom: -14.5%;
   right: 22%;
 }
 .hero__content p {
