@@ -40,7 +40,7 @@ const ProductDetail = () => {
     };
 
     getProduct();
-  }, [docRef]);
+  }, []);
   const {
     imgUrl,
     productName,

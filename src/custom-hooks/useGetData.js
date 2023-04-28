@@ -9,6 +9,7 @@ const useGetData = (collectionName) => {
 
   useEffect(() => {
     const getData = async () => {
+      // firebase firestore realtime data update //
       await onSnapshot(collectionRef, (snapshot) => {
         setData(snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
         setLoading(false);
@@ -16,8 +17,7 @@ const useGetData = (collectionName) => {
     };
 
     getData();
-  }, [collectionRef]); // Add collectionRef as a dependency here
-
+  }, []);
   return { data, loading };
 };
 
