@@ -36,7 +36,7 @@ const AllProduct = () => {
                       <td>
                         <img src={item.imgUrl} alt="" />
                       </td>
-                      <td>{item.title}</td>
+                      <td>{item.productName}</td>
                       <td>{item.category}</td>
                       <td>{item.price}</td>
                       <td>
